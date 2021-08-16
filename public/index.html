@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <!-- <script type="text/javascript" src="./static/live2dw/lib/L2Dwidget.min.js"></script> -->
+  <link href='./pio.css' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <div class="pio-container right">
+    <div class="pio-action"></div>
+    <canvas id="pio" width="300" height="500"></canvas>
+  </div>
+
+  <!-- built files will be auto injected -->
+  <!-- 引用 Live2D 核心组件 -->
+  <script src='./l2d.js'></script>
+  <!-- 引用看板娘交互组件 -->
+  <script src='./pio.js'></script>
+  <script>var pio = new Paul_Pio({
+      "mode": "draggable",
+      "hidden": true,
+      "content": {
+        "welcome": ["欢迎来到保罗的小宇宙！", "今天天气不错，一起来玩吧！", "博主每天都有些折腾记录，欢迎前往他的小窝阅读~"],
+        "touch": ["你这个绅士！", "别碰我！"],
+        "skin": ["想看看我的新服装吗？", "新衣服真漂亮~"],
+        "home": "点击这里回到首页！",
+        "link": "https://paul.ren/about",
+        "close": "QWQ 有缘再会吧~",
+        "referer": "你通过 %t 来到了这里",
+        "custom": [
+          { "selector": ".comment-form", "text": "欢迎参与本文评论，别发小广告噢~" },
+          { "selector": ".home-social a:last-child", "text": "在这里可以了解博主的日常噢~" },
+          { "selector": ".post-item a", "type": "read" },
+          { "selector": ".post-content a, .page-content a", "type": "link" }
+        ]
+      },
+      "night": "single.night()",
+      "model": ["./live_uu/model.json"],
+      "tips": true
+    });</script>
+
+</body>
+
+</html>
