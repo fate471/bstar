@@ -48,6 +48,7 @@ Vue.prototype.$qs = qs;
 Vue.prototype.$lodash = _;
 
 Vue.prototype.$axiosbili = axios
+axios.defaults.withCredentials = true;
 // axios.defaults.baseURL = 'http://localhost:8081/api'
 
 // 事件总线 发射:this.$bus.$emit('aaaa')  接收:this.$bus.$on('aaaa',function)

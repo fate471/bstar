@@ -191,17 +191,16 @@ export default {
       listFolded: false,
       listMaxHeight: 90,
       fixed: true,
-      autoplay: false,
+      autoplay: true,
       preload: "auto",
       lrcType: 3,
       audio: [
         {
-          name: "异人也",
-          artist: "霍尊 ",
-          url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E9%9C%8D%E5%B0%8A%20-%20%E5%BC%82%E4%BA%BA%E4%B9%9F.mp3",
-          cover:
-            "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BC%82%E4%BA%BA%E4%B9%9F.jpg",
-          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BC%82%E4%BA%BA%E4%B9%9F%EF%BC%88%E3%80%8A%E4%B8%80%E4%BA%BA%E4%B9%8B%E4%B8%8B3%E3%80%8B%E6%A6%82%E5%BF%B5%E4%B8%BB%E9%A2%98%E6%9B%B2%EF%BC%89-%20%E9%9C%8D%E5%B0%8A.lrc",
+          name: "LAST STARDUST",
+          artist: "Aimer (エメ) ",
+          url: "https://redblack.oss-cn-beijing.aliyuncs.com/Aimer%20(%E3%82%A8%E3%83%A1)%20-%20LAST%20STARDUST.flac",
+          cover: "https://redblack.oss-cn-beijing.aliyuncs.com/last.jpg",
+          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/LAST%20STARDUST%20-%20Aimer.lrc",
           theme: "#46718b",
         },
 
@@ -231,6 +230,15 @@ export default {
           cover:
             "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20Hand%20.jpg",
           lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20hand%20-%20DAISHI%20DANCE%2CC%C3%A9cile%20Corbel.lrc",
+        },
+        {
+          name: "异人也",
+          artist: "霍尊 ",
+          url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E9%9C%8D%E5%B0%8A%20-%20%E5%BC%82%E4%BA%BA%E4%B9%9F.mp3",
+          cover:
+            "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BC%82%E4%BA%BA%E4%B9%9F.jpg",
+          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BC%82%E4%BA%BA%E4%B9%9F%EF%BC%88%E3%80%8A%E4%B8%80%E4%BA%BA%E4%B9%8B%E4%B8%8B3%E3%80%8B%E6%A6%82%E5%BF%B5%E4%B8%BB%E9%A2%98%E6%9B%B2%EF%BC%89-%20%E9%9C%8D%E5%B0%8A.lrc",
+          theme: "#46718b",
         },
         {
           name: "梦回还",
@@ -321,14 +329,14 @@ export default {
             lrcType: 3,
             audio: [
               {
-                name: "异人也",
-                artist: "霍尊 ",
-                url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E9%9C%8D%E5%B0%8A%20-%20%E5%BC%82%E4%BA%BA%E4%B9%9F.mp3",
-                cover:
-                  "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BC%82%E4%BA%BA%E4%B9%9F.jpg",
-                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BC%82%E4%BA%BA%E4%B9%9F%EF%BC%88%E3%80%8A%E4%B8%80%E4%BA%BA%E4%B9%8B%E4%B8%8B3%E3%80%8B%E6%A6%82%E5%BF%B5%E4%B8%BB%E9%A2%98%E6%9B%B2%EF%BC%89-%20%E9%9C%8D%E5%B0%8A.lrc",
+                name: "LAST STARDUST",
+                artist: "Aimer (エメ) ",
+                url: "https://redblack.oss-cn-beijing.aliyuncs.com/Aimer%20(%E3%82%A8%E3%83%A1)%20-%20LAST%20STARDUST.flac",
+                cover: "https://redblack.oss-cn-beijing.aliyuncs.com/last.jpg",
+                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/LAST%20STARDUST%20-%20Aimer.lrc",
                 theme: "#46718b",
               },
+
               {
                 name: "aLIEz - mizuki (瑞葵),SawanoHiroyuki[nZk]",
                 artist: "aLIEz  ",
@@ -354,6 +362,16 @@ export default {
                 url: "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20hand.mp3",
                 cover:
                   "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20Hand%20.jpg",
+                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20hand%20-%20DAISHI%20DANCE%2CC%C3%A9cile%20Corbel.lrc",
+              },
+              {
+                name: "异人也",
+                artist: "霍尊 ",
+                url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E9%9C%8D%E5%B0%8A%20-%20%E5%BC%82%E4%BA%BA%E4%B9%9F.mp3",
+                cover:
+                  "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BC%82%E4%BA%BA%E4%B9%9F.jpg",
+                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BC%82%E4%BA%BA%E4%B9%9F%EF%BC%88%E3%80%8A%E4%B8%80%E4%BA%BA%E4%B9%8B%E4%B8%8B3%E3%80%8B%E6%A6%82%E5%BF%B5%E4%B8%BB%E9%A2%98%E6%9B%B2%EF%BC%89-%20%E9%9C%8D%E5%B0%8A.lrc",
+                theme: "#46718b",
               },
               {
                 name: "梦回还",

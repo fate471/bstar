@@ -189,28 +189,55 @@ export default {
       lrcType: 3,
       audio: [
         {
-          name: "梦回还",
-          artist: "呦猫UNEKO",
-          url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%91%A6%E7%8C%ABUNEKO%20-%20%E6%A2%A6%E5%9B%9E%E8%BF%98.mp3",
-          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E6%A2%A6%E5%9B%9E%E8%BF%98%20-%20%E5%91%A6%E7%8C%ABUNEKO.lrc",
-          cover: "https://redblack.oss-cn-beijing.aliyuncs.com/user.png",
+          name: "ninelie",
+          artist: "Aimer,EGOIST ",
+          url: "https://redblack.oss-cn-beijing.aliyuncs.com/Aimer%20(%E3%82%A8%E3%83%A1)%20_%20Chelly%20-%20ninelie.mp3",
+          cover: "https://redblack.oss-cn-beijing.aliyuncs.com/ninelie.jpg",
+          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/ninelie%20-%20Aimer%2CEGOIST.lrc",
           theme: "#46718b",
         },
         {
-          name: "Take me hand (抓紧我的手)",
-          artist: "DAISHI DANCE / Cécile Corbel   WONDER Tourism",
-          url: "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20hand.mp3",
+          name: "中国有流行",
+          artist: "葛东琪",
+          url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E8%91%9B%E4%B8%9C%E7%90%AA%20-%20%E4%B8%AD%E5%9B%BD%E6%9C%89%E6%B5%81%E8%A1%8C.mp3",
+          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E4%B8%AD%E5%9B%BD%E6%9C%89%E6%B5%81%E8%A1%8C%20-%20%E8%91%9B%E4%B8%9C%E7%90%AA.lrc",
           cover:
-            "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20Hand%20.jpg",
-          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20hand%20-%20DAISHI%20DANCE%2CC%C3%A9cile%20Corbel.lrc",
+            "https://redblack.oss-cn-beijing.aliyuncs.com/%E4%B8%AD%E5%9B%BD%E6%9C%89%E6%B5%81%E8%A1%8C.jpg",
+          theme: "#46718b",
         },
         {
-          name: "后退",
-          artist: "梁根荣 ",
-          url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E6%A2%81%E6%A0%B9%E8%8D%A3%20-%20%E5%90%8E%E9%80%80.mp3",
+          name: "前前前世",
+          artist: "君の名は",
+          url: "https://redblack.oss-cn-beijing.aliyuncs.com/RADWIMPS%20(%E3%83%A9%E3%83%83%E3%83%89%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%97%E3%82%B9)%20-%20%E5%89%8D%E5%89%8D%E5%89%8D%E4%B8%96%20(Movie%20ver_).flac",
           cover:
-            "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%90%8E%E9%80%80.jpg",
-          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%90%8E%E9%80%80%20-%20%E6%A2%81%E6%A0%B9%E8%8D%A3.lrc",
+            "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%89%8D%E5%89%8D%E4%B8%96%E4%B8%96.jpg",
+          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%89%8D%E5%89%8D%E5%89%8D%E4%B8%96%20(movie%20ver.)%20-%20RADWIMPS.lrc",
+        },
+        {
+          name: "See You Again",
+          artist: "Wiz Khalifa,Charlie Puth ",
+          url: "https://redblack.oss-cn-beijing.aliyuncs.com/Wiz%20Khalifa%20_%20Charlie%20Puth%20-%20See%20You%20Again%20(feat_%20Charlie%20Puth).flac",
+          cover:
+            "https://redblack.oss-cn-beijing.aliyuncs.com/see%20you%20again.jpg",
+          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/See%20You%20Again%20-%20Wiz%20Khalifa%2CCharlie%20Puth.lrc",
+          theme: "#46718b",
+        },
+        {
+          name: "还是会想你",
+          artist: "林达浪,h3R3 ",
+          url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E6%9E%97%E8%BE%BE%E6%B5%AA%2Ch3R3%20-%20%E8%BF%98%E6%98%AF%E4%BC%9A%E6%83%B3%E4%BD%A0.mp3",
+          cover:
+            "https://redblack.oss-cn-beijing.aliyuncs.com/%E8%BF%98%E6%98%AF%E4%BC%9A%E6%83%B3%E4%BD%A0.jpg",
+          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E8%BF%98%E6%98%AF%E4%BC%9A%E6%83%B3%E4%BD%A0%20-%20%E6%9E%97%E8%BE%BE%E6%B5%AA%2Ch3R3.lrc",
+          theme: "#46718b",
+        },
+        {
+          name: "心如止水",
+          artist: "Ice Paper ",
+          url: "https://redblack.oss-cn-beijing.aliyuncs.com/Ice%20Paper%20-%20%E5%BF%83%E5%A6%82%E6%AD%A2%E6%B0%B4.mp3",
+          cover:
+            "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BF%83%E5%A6%82%E6%AD%A2%E6%B0%B4.jpg",
+          lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BF%83%E5%A6%82%E6%AD%A2%E6%B0%B4%20-%20Ice%20Paper.lrc",
           theme: "#46718b",
         },
       ],
@@ -248,6 +275,17 @@ export default {
           }
         }, 1000);
       }
+      if (mobilePass) {
+        return false;
+      } else {
+        this.$axiosbili
+          .post(
+            "https://www.fastmock.site/mock/9622fedc10c4460c973964c75742c970/bda01/api/code/varification"
+          )
+          .then((res) => {
+            this.ruleForm.code = res.data.code;
+          });
+      }
     },
 
     next: function () {
@@ -277,29 +315,56 @@ export default {
             lrcType: 3,
             audio: [
               {
-                name: "梦回还",
-                artist: "呦猫UNEKO",
-                url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%91%A6%E7%8C%ABUNEKO%20-%20%E6%A2%A6%E5%9B%9E%E8%BF%98.mp3",
-                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E6%A2%A6%E5%9B%9E%E8%BF%98%20-%20%E5%91%A6%E7%8C%ABUNEKO.lrc",
-                cover: "https://redblack.oss-cn-beijing.aliyuncs.com/user.png",
+                name: "ninelie",
+                artist: "Aimer,EGOIST ",
+                url: "https://redblack.oss-cn-beijing.aliyuncs.com/Aimer%20(%E3%82%A8%E3%83%A1)%20_%20Chelly%20-%20ninelie.mp3",
+                cover:
+                  "https://redblack.oss-cn-beijing.aliyuncs.com/ninelie.jpg",
+                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/ninelie%20-%20Aimer%2CEGOIST.lrc",
                 theme: "#46718b",
               },
               {
-                name: "Take me hand (抓紧我的手)",
-                artist: "DAISHI DANCE / Cécile Corbel   WONDER Tourism",
-                url: "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20hand.mp3",
-                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20hand%20-%20DAISHI%20DANCE%2CC%C3%A9cile%20Corbel.lrc",
+                name: "中国有流行",
+                artist: "葛东琪",
+                url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E8%91%9B%E4%B8%9C%E7%90%AA%20-%20%E4%B8%AD%E5%9B%BD%E6%9C%89%E6%B5%81%E8%A1%8C.mp3",
+                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E4%B8%AD%E5%9B%BD%E6%9C%89%E6%B5%81%E8%A1%8C%20-%20%E8%91%9B%E4%B8%9C%E7%90%AA.lrc",
                 cover:
-                  "https://redblack.oss-cn-beijing.aliyuncs.com/Take%20me%20Hand%20.jpg",
-                theme: "#ebd0c2",
+                  "https://redblack.oss-cn-beijing.aliyuncs.com/%E4%B8%AD%E5%9B%BD%E6%9C%89%E6%B5%81%E8%A1%8C.jpg",
+                theme: "#46718b",
               },
               {
-                name: "后退",
-                artist: "梁根荣 ",
-                url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E6%A2%81%E6%A0%B9%E8%8D%A3%20-%20%E5%90%8E%E9%80%80.mp3",
+                name: "前前前世",
+                artist: "君の名は",
+                url: "https://redblack.oss-cn-beijing.aliyuncs.com/RADWIMPS%20(%E3%83%A9%E3%83%83%E3%83%89%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%97%E3%82%B9)%20-%20%E5%89%8D%E5%89%8D%E5%89%8D%E4%B8%96%20(Movie%20ver_).flac",
                 cover:
-                  "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%90%8E%E9%80%80.jpg",
-                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%90%8E%E9%80%80%20-%20%E6%A2%81%E6%A0%B9%E8%8D%A3.lrc",
+                  "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%89%8D%E5%89%8D%E4%B8%96%E4%B8%96.jpg",
+                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%89%8D%E5%89%8D%E5%89%8D%E4%B8%96%20(movie%20ver.)%20-%20RADWIMPS.lrc",
+              },
+              {
+                name: "See You Again",
+                artist: "Wiz Khalifa,Charlie Puth ",
+                url: "https://redblack.oss-cn-beijing.aliyuncs.com/Wiz%20Khalifa%20_%20Charlie%20Puth%20-%20See%20You%20Again%20(feat_%20Charlie%20Puth).flac",
+                cover:
+                  "https://redblack.oss-cn-beijing.aliyuncs.com/see%20you%20again.jpg",
+                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/See%20You%20Again%20-%20Wiz%20Khalifa%2CCharlie%20Puth.lrc",
+                theme: "#46718b",
+              },
+              {
+                name: "还是会想你",
+                artist: "林达浪,h3R3 ",
+                url: "https://redblack.oss-cn-beijing.aliyuncs.com/%E6%9E%97%E8%BE%BE%E6%B5%AA%2Ch3R3%20-%20%E8%BF%98%E6%98%AF%E4%BC%9A%E6%83%B3%E4%BD%A0.mp3",
+                cover:
+                  "https://redblack.oss-cn-beijing.aliyuncs.com/%E8%BF%98%E6%98%AF%E4%BC%9A%E6%83%B3%E4%BD%A0.jpg",
+                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E8%BF%98%E6%98%AF%E4%BC%9A%E6%83%B3%E4%BD%A0%20-%20%E6%9E%97%E8%BE%BE%E6%B5%AA%2Ch3R3.lrc",
+                theme: "#46718b",
+              },
+              {
+                name: "心如止水",
+                artist: "Ice Paper ",
+                url: "https://redblack.oss-cn-beijing.aliyuncs.com/Ice%20Paper%20-%20%E5%BF%83%E5%A6%82%E6%AD%A2%E6%B0%B4.mp3",
+                cover:
+                  "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BF%83%E5%A6%82%E6%AD%A2%E6%B0%B4.jpg",
+                lrc: "https://redblack.oss-cn-beijing.aliyuncs.com/%E5%BF%83%E5%A6%82%E6%AD%A2%E6%B0%B4%20-%20Ice%20Paper.lrc",
                 theme: "#46718b",
               },
             ],
